@@ -1,0 +1,134 @@
+main-content{
+    position: relative;
+}
+
+.main-content-image {
+    width: 100vw;
+}
+
+.main-content-info {
+    width: 35vw;
+    position: absolute;
+    top: 10vw;
+    left: 3vw;
+}
+
+.main-content-title-image {
+    width: 35vw;
+    margin-bottom: 1.5vw;
+}
+
+.main-content-text {
+    color: white;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    word-spacing: 0.05vw;
+    margin-bottom: 1.5vw;
+}
+
+.main-content-buttons {
+    display: flex;
+}
+
+.main-content-info button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-info .play-button {
+    width: 8vw;
+    height: 3vw;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 0.2vw;
+    margin-right: 0.7vw;
+    font-size: 1.2vw;
+}
+
+.main-content-info i {
+    font-size: 1.7vw;
+    margin-right: 1vw;
+}
+
+.main-content-info .detail-button {
+    width: 10vw;
+    height: 3vw;
+    background-color: rgb(80, 83, 80, 0.7);
+    color: #e9e9e9;
+    border: none;
+    border-radius: 0.2vw;
+    font-size: 1.2vw;
+}
+
+.top-content-section {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(20,20,20,1) 30%, rgba(20,20,20,1) 100%);
+    height: 15vw;
+}
+
+.content-section,
+.top-content-section {
+    position: relative;
+    color: white;
+    font-size: 1.4vw;
+    top: -14vw;
+}
+
+.top-content-section p {
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+}
+
+.top-contents {
+    padding: 0 3vw;
+    display: flex;
+}
+
+.content,
+.top-content {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.top-content .top-content-rank {
+    position: relative;
+    left: 1vw;
+    width: 7vw;
+}
+
+.top-content .top-content-image {
+    position: relative;
+    width: 7.5vw;
+}
+
+.content:hover .content-image,
+.top-content:hover .top-content-image {
+    transform: scale(1.5);
+    z-index: 1000;
+    transition-duration: 0.5s;
+}
+
+.content-section {
+    margin-top: 4vw;
+}
+
+.contents {
+    padding: 0 3vw;
+    display: flex;
+    gap: 1vw;
+}
+
+.content-section p {
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+}
+
+.content {
+    border-radius: 2vw;
+}
+
+.content-image {
+    width: 100%;
+}
